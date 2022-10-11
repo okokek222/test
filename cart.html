@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <!-- saved from url=(0103)https://payment.getwavytaps.com/f76c2/gateway.html?sid=464e75ea-843a-4d7a-9f9f-200106a61747&sa=6077_ste -->
 <html class="no-js" lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title data-i18n="page-title">Cart | Anime case</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -13,24 +13,13 @@
     <link href="Secure payment form_files/chunk-vendors.css" rel="stylesheet">
     <link href="Secure payment form_files/chunk-common.css" rel="stylesheet">
     <link rel="icon" type="image/x-icon" href="/images/icon.png">
-
+    
     <link href="Secure payment form_files/style.css" rel="stylesheet">
-    <script src="https://use.fontawesome.com/389d052741.js"></script>
-    <!-- font awesome -->
     <link rel="stylesheet" href="Secure payment form_files/all.css">
-
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css">
     <link rel="stylesheet" href="Secure payment form_files/custom.css">
-
-    <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-NH64V7Q');</script>
-    <!-- End Google Tag Manager -->
-
-
-<script type="text/javascript" src="Secure payment form_files/new_relic.js.telechargement"></script></head>
+    <script type="text/javascript" src="Secure payment form_files/new_relic.js.telechargement"></script></head>
+    
 
 <body><!-- Generic Modal -->
             <div class="container" id="modal-container">
@@ -130,118 +119,9 @@
                             
                             <hr>
                             <a href="https://leadmarkings.com/?a=448&c=6071&s1=6077_ste" class="back-link" data-target="step1">
-                            <button id="signup-button" type="submit" class="register btn-txt button" data-alt-text="Please wait..." ><span data-i18n="btn-continue-shipping">Continue to shipping</span></button></a>
+                            <button id="signup-button" type="submit" class="register btn-txt button" data-alt-text="Please wait..." ><span data-i18n="btn-continue-shipping">Proceed to checkout</span></button></a>
 
-                            <!-- Shipping Details -->
-                            <div id="shipping-details" class="steps d-none">
-                                <legend class="mt-5 mb-2" data-i18n="form-3-header-2">Shipping Method</legend>
-                                <div class="prefilled">
-                                    <div class="detail" id="prefill-ship">
-                                        <input type="radio" id="free-shipping" checked="">
-                                        <p><span data-i18n="charge-delivery">Delivery</span></p>
-                                        <a class="nolink"><strong><span data-i18n="charge-rate">Free</span></strong></a>
-                                    </div>
-                                </div>
-
-                                <button class="proceed-payment button mt-4"><span data-i18n="btn-proceed-payment">Proceed to payment</span></button>
-                                <a href="https://payment.getwavytaps.com/f76c2/gateway.html?sid=464e75ea-843a-4d7a-9f9f-200106a61747&amp;sa=6077_ste#personal-details" class="back-link" data-target="step1"><span>←</span> <span data-i18n="back-info">Back to information</span></a>
-                            </div>
-
-                            <!-- Payment Details -->
-                            <div id="payment-method-details" class="steps mt-5 d-none">
-                                <legend class="mb-2" data-i18n="form-4-header-2">Payment</legend>
-                                <form method="post" data-qtip-classes="qtip-custom" data-parsley-validate="" id="payment-form" class="gtw-form mb-3" novalidate="">
-                                    <div class="form-header">
-                                        <b data-i18n="special-campaign-card"></b>
-                                        <img src="./Secure payment form_files/cards.png" class="cards">
-                                    </div>
-                                    <fieldset>
-                                        <label data-i18n="card-number" for="cc">Card Number:</label>
-                                        <div class="input-icon">
-                                            <i class="fa fa-lock"></i>
-                                            <input type="tel" name="number" data-parsley-creditcard="" maxlength="16" required="" data-parsley-trigger="blur" class="form-control" data-i18n="form-cc" id="card" data-tooltip-at="top center" data-tooltip-my="bottom center" placeholder="Credit Card Number">
-                                        </div>
-
-                                        <label data-i18n="expiration-text" for="exp">Expiration date:</label>
-                                        <div class="form-row">
-                                            <div class="col-6">
-                                                <select id="month" class="half custom-select form-control" name="expiryMonth" data-parsley-cc-expires-month="" required="" data-parsley-trigger="change">
-                                                    <option data-i18n="month-text" disabled="" selected="" value="">Month</option>
-                                                    <option value="01">01</option>
-                                                    <option value="02">02</option>
-                                                    <option value="03">03</option>
-                                                    <option value="04">04</option>
-                                                    <option value="05">05</option>
-                                                    <option value="06">06</option>
-                                                    <option value="07">07</option>
-                                                    <option value="08">08</option>
-                                                    <option value="09">09</option>
-                                                    <option value="10">10</option>
-                                                    <option value="11">11</option>
-                                                    <option value="12">12</option>
-                                                </select>
-                                            </div>
-                                            <div class="col-6">
-                                                <select id="ccyear" class="custom-select form-control" name="expiryYear" data-parsley-cc-expires-year="" required="" data-parsley-trigger="change" data-tooltip-at="top right" data-tooltip-my="bottom right">
-                                                    <option data-i18n="year-text" disabled="" selected="" value="">Year</option>
-                                                <option value="22">22</option><option value="23">23</option><option value="24">24</option><option value="25">25</option><option value="26">26</option><option value="27">27</option><option value="28">28</option><option value="29">29</option><option value="30">30</option><option value="31">31</option></select>
-                                            </div>
-                                        </div>
-                                        <label data-i18n="cvv-text" for="ccv">CVV No.</label>
-                                        <div class="form-row">
-                                            <div class="col-12">
-                                                <div class="input-icon">
-                                                    <input type="tel" class="half form-control" name="cvv2" id="cvv" required="" maxlength="3" value="" data-i18n="form-cc-cvv" data-parsley-cc-cvv="" data-parsley-trigger="blur" data-tooltip-at="top left" data-tooltip-my="bottom left" placeholder="CVV No.">
-                                                        <i class="fa fa-question-circle" aria-hidden="true"><span class="tooltiptext" data-i18n="form-cc-cvv-explain">CVV No.</span></i>
-                                                </div>
-                                            </div>
-                                           
-                                        </div>
-                                        
-                                    </fieldset>
-                                    <!-- Append and render the T&C checkbox here -->
-                                    <div id="terms-checkbox" class="input-wrap"><label for="terms" class="terms-label"><input type="checkbox" id="terms" name="terms" class="terms-checkbox" data-parsley-required="true" data-parsley-trigger="change" data-parsley-terms-checkbox="" data-parsley-checkmin="1" required="" false="" data-parsley-required-message="Please accept our Terms &amp; Conditions before continuing"> <span data-i18n="terms-text">I have read and agree to the</span> <a class="terms-link" data-i18n="terms-text-two" href="https://getwavytaps.com/terms.html" target="_blank">terms and conditions</a><span data-i18n="terms-text-three">, and certify that I am at least 18 years of age.</span> </label></div>
-                                    
-                                    <button id="payment-button" type="submit" class="button gtw_default btn-txt">
-                                        <span data-i18n="button-text" class="submit-btn-text">Process payment</span>
-                                        <div class="wait-btn-text hide-text" data-i18n="button-wait">Please wait...</div>
-                                    </button>
-                                    <a href="https://payment.getwavytaps.com/f76c2/gateway.html?sid=464e75ea-843a-4d7a-9f9f-200106a61747&amp;sa=6077_ste#shipping-details" data-target="step2" class="back-link">← <span data-i18n="back-shipping">Back to shipping</span></a>
-                                </form>
-                                
-                                <hr>
-
-                                <!-- Extra Info Section -->
-                                <div class="space-top-8">
-                                    <div class="about-section">
-                                        <div class="about-img">
-                                            <img src="./Secure payment form_files/icon_1.png">
-                                        </div>
-                                        <p>
-                                            <span class="sub-header" data-i18n="secure-pay">Secure payment</span>
-                                            <br>
-                                            <span data-i18n="secure-pay-sub-text">Our payment pages are secure and encrypted</span>
-                                        </p>
-                                    </div>
-
-                                    <div class="about-section">
-                                        <div class="about-img">
-                                            <img src="./Secure payment form_files/icon_3.png">
-                                        </div>
-                                        <p>
-                                            <span class="sub-header" data-i18n="satisfaction-text">Your satisfaction is our priority</span>
-                                            <br>
-                                            <span data-i18n="satisfaction-sub-text">Customer service available 24/7</span>
-                                        </p>
-                                    </div>
-
-                                    <div class="about-section row pt-5">
-                                        <p class="col-12 p-0 mb-5" data-i18n="refunds">Refunds for purchases or recurring charges may be requested by contacting customer support. Refunds or credits will not be issued for partially used Memberships. Cancellation for all billing may be requested in accordance with Section 11 - Cancellation. getwavytaps.com reserves the right to grant a refund or a credit applicable to purchases to the Site at its discretion. The decision to refund a charge does not imply the obligation to issue additional future refunds. Should a refund be issued by getwavytaps.com for any reason, it will be credited solely to the payment method used in the original transaction. getwavytaps.com will not issue refunds by cash.</p>
-                                        <p class="col-12 p-0" data-i18n="[html]sweeps">All new customers participate in the prize draw for the shown campaign product. If you are the lucky winner, you will be contacted directly by email. This special offer comes with a 3 days trial to an affiliated subscription service, after which the subscription fee (<span>59.99</span> USD every 30 days) will be automatically deducted from your credit card. If, for any reason, you are not satisfied with the service, you may cancel your account within 3 days. The service will be renewed every 30 days until cancelled. This campaign will expire on December 31,2022.</p>
-                                    </div>
-                                </div>
-
-                            </div>
+                          
                         </div>
                     </div>
 
@@ -253,11 +133,11 @@
                                             <path d="M17.178 13.088H5.453c-.454 0-.91-.364-.91-.818L3.727 1.818H0V0h4.544c.455 0 .91.364.91.818l.09 1.272h13.45c.274 0 .547.09.73.364.18.182.27.454.18.727l-1.817 9.18c-.09.455-.455.728-.91.728zM6.27 11.27h10.09l1.454-7.362H5.634l.637 7.362zm.092 7.715c1.004 0 1.818-.813 1.818-1.817s-.814-1.818-1.818-1.818-1.818.814-1.818 1.818.814 1.817 1.818 1.817zm9.18 0c1.004 0 1.817-.813 1.817-1.817s-.814-1.818-1.818-1.818-1.818.814-1.818 1.818.814 1.817 1.818 1.817z"></path>
                                         </svg>
                                         <div class="summary-info-show">
-                                            <span data-i18n="order-summary-show">Show</span> <i class="fa fa-angle-down" aria-hidden="true"></i>
+                                            <span data-i18n="order-summary-show">Show</span> <i class="fa fa-angle-down"></i>
 
                                         </div>
                                         <div class="summary-info-hide">
-                                            <span data-i18n="order-summary-hide">Hide</span> <i class="fa fa-angle-down" aria-hidden="true"></i>
+                                            <span data-i18n="order-summary-hide">Hide</span> <i class="fa fa-angle-down"></i>
 
                                         </div>
                                         
